@@ -32,13 +32,25 @@ body{
 }
 footer{
     clear: both;
-    color:rgb(121, 7, 45);
+    color:rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
 }
 header > h1{
     text-align: center;
-    color:#fff;
-    font-family:'Times New Roman', Times, serif
+    color:rgb(255, 255, 255); 
+}
+a:link{
+    color: rgb(0, 142, 0)
+}
+a:visited{
+    color:rgb(121, 7, 45);
+}
+a:hover{
+    font-size: larger;
+    text-decoration: none;
+}
+a:active{
+    color: darkslateblue;
 }
 main img{
 float: left;
